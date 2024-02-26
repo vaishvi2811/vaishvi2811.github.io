@@ -1,0 +1,163 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Personal Portfolio Website</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <div id="header" style="display: flex; justify-content: center; position: fixed ; top: 0; width: 100%; backdrop-filter: blur(5px)" >
+    <div>
+
+        <ul id="navbar">
+            <li><a href="#Home">Home</a></li>
+            <li><a href="#About">About Me</a></li>
+            <li><a href="#Education">Education</a></li>
+            <li><a href="#Skills">Skills</a></li>
+            <li><a href="#Contact">Contact</a></li>
+        </ul>
+    </div>
+     
+    </div>
+<div style="height: 60vh; display: flex; flex-direction: row; justify-content: space-evenly; margin-top: 100px;" id="Home">
+    <div>
+        <div class="name">Vaishvi Khandelwal</div>
+        
+        <p>Hello there! I'm Vaishvi Khandelwal, a passionate first-year <br> IT student with a keen interest in Data Structures and Algorithms (DSA) <br> as well as web development. I find the blend of problem-solving in DSA  <br>and the creativity involved in web development incredibly exciting.
+        </p>
+    </div>
+    <div>
+        <img src="vaishvi.jpeg" style="height: 300px; width: 300px; border-radius: 50%;" alt="">
+    </div>
+  
+    
+</div>
+    <br>
+    <br>
+
+    <b>
+        <div class="About-Me topic" id="About" style="display: flex; flex-direction: column; justify-content: center; align-items: center; height: 30vh;">About Me</div>
+    </b>
+    <br>
+    <div class="About Me" id="content1">I'm a Bachelor's in Information Technology student <br> at VJTI, Mumbai
+        and exploring every endeavour in the field. <br>I’m a genuine, dedicated and sociable individual with a
+        strong <br> determination to excel in all that I do.
+    </div>
+    <br>
+    <br>
+
+    <div id='Education'style="display: flex; flex-direction: column; justify-content: center; align-items: center;" >
+        <div>
+            <b>
+                <div class="Education topic" id="" style="text-align: center;  margin-top: 150px;"> <h4>Education</h4></div>
+            </b>
+        </div>
+       
+        <div style="display: flex; align-items: center; justify-content: center;">
+            <div class="Education" id="sp"><img src="vjti.jpg" alt=""></div>
+            <div>
+              
+                    <div class="Education" id="content2" style="display: block; padding-bottom: 5px;"> <b style="color: bisque;">Veermata Jijabai
+                        Technological Institute </b><br>
+            
+                <div style=" padding-top: 5px;"> Bachelor of Engineering, Information Technology | 2023-2027
+                </div>
+            </div>
+        </div>
+
+
+        
+    </div>
+    <div style="display: flex; align-items: center; justify-content: center;">
+        <div class="Education" id="sp2"><img src="donbosco.png" alt=""></div>
+        <div>
+            <b>
+                <div class="Education" id="content3" style="display: block; margin:0">Don Bosco School</div>
+            </b>
+            <div style="font-size: 25px;"> Grade: Nursery to 10th  | 2009-2021</div>
+        </div>
+    </div>
+    <!-- <div class="Education" id="sp2"><img src="donbosco.jpg" alt=""></div>
+    <b>
+        <div class="Education" id="content3">Don Bosco School<br>
+    </b>
+    <div> Don Bosco School</div>
+    </div> -->
+
+    <br>
+    <br>
+<div style="display: flex; flex-direction: column; justify-content: center; align-items: center; justify-items: center; margin-top:150px ; height: 50vh; padding-top: 30px;" >
+
+
+    <b>
+        <div class="Skills topic" id="Skills">Skills</div>
+    </b>
+    <div class="Skills" id="content4">
+        <ul>
+            <li> C++</li>
+            <li>Web Development</li>
+            <li>Communication</li>
+            <br>
+            <li>Writing</li>
+            <li>Literature</li>
+            <li>Public Speaking</li>
+        </ul>
+    </div>
+
+</div>
+    <br>
+    <br>
+<div id='Contact'style="display: flex ; flex-direction: column; align-items: center; justify-content: center; margin-top:150px ; margin-bottom: 50px;">
+    <b>
+        <div class="Contact-Me topic" id=""><h4 style="text-align: center;">Contact Me </h4></div>
+    </b>
+    <form id="content5" style="display: flex ; flex-direction: column; align-items: center; justify-content: center;" >
+        <div style=" padding:10px">
+            <label for="name">Name:</label>
+            <input type="text" id="name" name="name" required="">
+
+        </div>
+        <div style="margin-top : 5px ; padding:10px">
+            <label for="email">Email:</label>
+            <input type="email" id="email" name="email" required="">
+
+        </div>
+        <div  style="margin-top : 5px  ; display: flex; padding:10px">
+
+            <label for="message">Message:</label>
+            <textarea id="" name="message" style="padding : 30px" required=""></textarea>
+        </div>
+        <button type="submit" style="    background-color: bisque;
+        border: none;
+        border-radius: 3px;
+        padding: 8px 20px;
+        color:black 
+         ">Send</button>
+    </form>
+
+</div> 
+    <br>
+    <br>
+
+    <div id="footer">
+        <p>© 2024 Personal Portfolio. All rights reserved.</p>
+    </div>
+
+    <script>
+        // Smooth scroll to anchor links
+        document.querySelectorAll('a[href^="#"]').forEach(anchor => {
+            anchor.addEventListener('click', function (e) {
+                e.preventDefault();
+
+                document.querySelector(this.getAttribute('href')).scrollIntoView({
+                    behavior: 'smooth'
+                });
+            });
+        });
+    </script>
+</body>
+
+</html>

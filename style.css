@@ -1,0 +1,176 @@
+* {
+    margin: 0;
+    padding: 0;
+    font-family: 'Poppins', sans-serif;
+    box-sizing: border-box;
+    color: white;
+}
+
+
+body {
+    background: black;
+    color: white;
+}
+
+
+#navbar {
+    /* display: flex;
+    flex-direction: row;
+    justify-content: space-evenly; */
+    list-style-type: none;
+    margin: 10px;
+}
+
+a {
+    text-decoration: none;
+    color: white;
+}
+
+li {
+    display: inline;
+    color: white;
+}
+ 
+li :hover {
+    color:bisque;
+    text-decoration: underline bisque;
+    
+}
+
+p {
+    font-size: 20px;
+    padding-left: 10px;
+}
+
+.name {
+    padding-left: 10px;
+    font-size: 50px;
+    color: cadetblue;
+    margin-top: 20px;
+    margin-bottom: 10px;
+}
+
+
+.About-Me {
+    margin-top: 20px;
+    margin-bottom: 10px;
+    font-size: 30px;
+    display: flex;
+    text-align: center;
+}
+
+.topic {
+    font-size: 30px;
+    color: coral;
+    margin: 10px;
+    text-align: center;
+}
+
+#content1 {
+    font-size: 25px;
+    color: bisque;
+    text-align: center;
+}
+
+.Education {
+    margin-top: 20px;
+    margin-bottom: 10px;
+    font-size: 30px;
+    display: flex;
+    text-align: center;
+}
+
+#sp {
+    height: 100px;
+    width: 100px;
+    left: 0;
+    /* background-image: url(vjti.jpg);
+    background-size: cover; */
+}
+
+#content2 {
+    font-size: 25px;
+    color: bisque;
+    margin: 15px;
+    text-align: center;
+}
+
+
+#sp2 {
+    height: 100px;
+    width: 100px;
+    left: 0;
+    /* background-image: url(dbn.png);
+    background-size: cover; */
+}
+img {
+    border-radius: 7px;
+}
+
+#content3 {
+    font-size: 25px;
+    color: bisque;
+    margin: 15px;
+    text-align: center;
+}
+
+.Skills {
+    margin-top: 20px;
+    margin-bottom: 10px;
+    font-size: 30px;
+    display: flex;
+    text-align: center;
+}
+
+#content4 {
+    height: 50px;
+   
+    display: flex;
+    margin: 15px;
+    text-align: center;
+}
+
+ul li {
+    padding-inline: 8px;
+    align-content: center;
+    font-size: 25px;
+    color: bisque;
+    margin: 15px;
+    text-align: center;
+}
+
+.Contact-Me {
+    margin-top: 20px;
+    margin-bottom: 10px;
+    font-size: 30px;
+}
+ 
+ input , textarea {
+    min-width: 250px;
+    max-width : 1500px;
+    height: 25px;
+    padding : 10px
+ }
+
+#content5 {
+    /* height: 30px; */
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    margin: 15px;
+    margin-bottom : 25px
+}
+
+button:hover {
+    
+background-color:rgb(145, 122, 95) ;
+}
+
+#footer {
+    margin-top: 30px;
+    background-color: rosybrown;
+    padding: 20px;
+    text-align: center;
+    width: 100%;
+
+}
